@@ -2,10 +2,18 @@ class CustomSet:
 
     def __init__(self, listSetElements):
         
-        self._setElements = listSetElements
+        self._setElements = []
+        
+        for number in listSetElements:
+            
+            if number not in self._setElements:
+                
+                self._setElements.append(number)
+
+
 
     def __str__(self):
-        return str(self._setElements[0])
         
-CustomSet([10,20,30])
-print(CustomSet)
+        stringList = str(self._setElements)
+        
+        return stringList
