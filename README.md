@@ -2,7 +2,7 @@
 The group program 14 assignment.
 
 Martin:
--1 __constructor__
+-6
 -4 difference of sets
 -7 superset
 
@@ -14,4 +14,5 @@ George:
 Ben:
 -9  __Str__
 -3 Intersection of sets
--6
+-1 __constructor__
+
