@@ -70,7 +70,7 @@
             ct+=1
         return ct
 
-    def union(self,tmpJoiner):
+    def __add__(self,tmpJoiner):
         res=[]
         for el in self._setElements:
             res.append(el)
